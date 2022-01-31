@@ -1,0 +1,476 @@
+@media (max-width: 480px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{background-color: black }
+    h1{background-color:black;
+       width:100%}
+    
+    h1 img {height: 50px;
+           display: inline;
+           padding: 5px;
+           margin: 5px}
+    
+           .navFlex{
+            display: flex;
+            flex-direction: row;
+
+            flex-wrap: wrap;
+            
+        }
+        nav{background-color: white;}
+        span{
+            background-color: white;
+            width: 120px;
+            height: 30px;
+           margin: 15px;
+            text-align: center;
+            padding: 5px;
+        }
+        span:hover{background-color: rgb(255, 0, 0);}
+    
+    section img{width: 100%;}
+        
+    
+     
+        
+    .fotouno{background-image: url(/multimedia/WhatsApp.png);
+            background-size: cover;
+            background-position: center;
+            height: 20vh;
+            text-align:left;
+            color: white;
+            font-size: 10px;font-family: Arial, Helvetica, sans-serif;
+            margin:0px;
+            padding: 0px;}
+      
+     h3 img {height: 400px;width:500px}
+    .items {display:flex;
+            flex-direction:column; 
+            justify-content:space-evenly;
+            align-items: center;
+            color:black;
+            padding:50px;
+            background-color:black; 
+            border:10px black;  
+            color:black; 
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif; 
+            text-align: center; }
+    
+    
+    .inicio{background-color: white;
+           width: 300PX;
+           height: 200px;
+            padding:80px;
+            margin-bottom: 0px;
+            color:black; 
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif; 
+        border:solid red 8px }
+    .galeriaFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tituloNeumatico{
+        color:rgb(255, 255, 255);
+        margin: 15px;
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif; 
+        text-align:left}
+    .nombreNeumatico{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        font-family:Arial, Helvetica, sans-serif; 
+        text-align:left}   
+    
+      
+    .imagenNeumatico{width:140px;
+                     height:160px;
+                     margin: 4px}
+    .medidaUno{background-color: white;
+        text-align: center;
+        margin: 25px;
+        height: 100px;
+        border:solid red 8px;
+        color:black; 
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif; }
+
+        .promocionesUno{color:white;
+            margin: 15px;
+            font-style: normal;
+            font-family:Arial, Helvetica, sans-serif; 
+            text-align:left;
+            font-weight: bold;}
+            
+        .promImagen {width: 300px;
+                     height: 300px;
+                     margin:40px;}  
+        
+        
+        .serviciosUno{color:white;
+                      margin: 15px;
+                      font-style: normal;
+                      font-family:Arial, Helvetica, sans-serif; 
+                      text-align:left;
+                      font-weight: bold;}
+        .promocion{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;}
+        
+        .servicios{
+            display: flex;
+            flex-direction: column;
+            
+        }   
+        
+        }
+        .colorServicio{ background-color: white;
+        margin: px;}
+        
+        .serviciosDos{color:black;
+                      font-style: normal;
+                      font-family:Arial, Helvetica, sans-serif; 
+                      text-align:left;}
+        
+        .serviciosTres{color:black;
+                      font-style: normal;
+                      font-family:Arial, Helvetica, sans-serif; 
+                      text-align:left;}
+                    
+        .imagenServicio{
+            width:380px ;
+            height:260px ;
+        }
+        
+        
+        .cajaUno{color: white;
+                 font-style: normal;
+                 font-family:Arial, Helvetica, sans-serif; 
+                 text-align:left;
+                 margin-top:15px}  
+        
+        .cajaTres{color: white; 
+                  font-style: normal;
+                  font-family:Arial, Helvetica, sans-serif; 
+                  text-align:left;
+                  margin-top: 15px;}
+        
+        .cajaDos {background-color: white rgb(255, 255, 255);
+                 color:black;
+                 margin: 20px;
+                 font-style: normal;
+                 font-family:Arial, Helvetica, sans-serif; 
+                 text-align:left;}
+        
+        .contacto{color:  black;
+                  font-style: normal;
+                  font-family:Arial, Helvetica, sans-serif; 
+                text-align:left;}
+        
+        .contatoGrid{display: grid;
+            justify-items: center;}
+        
+        .datosdelcliente{background-color: white;
+            width:70%;}
+            
+            
+            
+        .sucursales{ 
+            display:flex;
+            flex-direction: row;}
+        
+        
+        .colorSucursal{background-color: white;
+        }
+        .sucursalesUno{ color:white;margin:15px;
+                font-style: normal;
+                font-family:Arial, Helvetica, sans-serif; 
+                text-align:left;
+                font-weight: bold;}   
+        
+        
+        .tituloSucursal{ color:rgb(3, 3, 3);
+                         font-weight: bold; 
+                         font-style: normal;
+                         font-family:Arial, Helvetica, sans-serif; 
+                         text-align:left;
+        } 
+        .textoSucursal{color:rgb(2, 2, 2);
+                       font-style: normal;
+                       font-family:Arial, Helvetica, sans-serif; 
+                       text-align:left} 
+        
+        .imagenSucursal{width: 380px; height: 260px;}
+    
+        footer {background-color: rgb(112, 112, 112);
+            color:black; 
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif; 
+            text-align: right;
+            text-align: center;}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1024px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{background-color: black }
+h1{background-color:black;
+   width:100%}
+
+h1 img {height: 50px;
+       display: inline;
+       padding: 5px;
+       margin: 5px}
+
+       .navFlex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    nav{background-color: white;}
+    span{
+        background-color: white;
+        width: 120px;
+        height: 30px;
+       margin: 15px;
+        text-align: center;
+        padding: 5px;
+        color:black; 
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif; 
+        text-align: center;
+        }
+    span:hover{background-color: rgb(255, 0, 0);}
+
+
+section img{width: 100%;}
+    
+ 
+    
+.fotouno{background-image: url(/multimedia/WhatsApp.png);
+        background-size: cover;
+        background-position: center;
+        height: 20vh;
+        text-align:left;
+        color: white;
+        font-size: 10px;font-family: Arial, Helvetica, sans-serif;
+        margin:0px;
+        padding: 0px;}
+  
+ h3 img {height: 400px;width:500px}
+.items {display:flex;
+        flex-direction:row; 
+        justify-content:space-evenly;
+        align-items: center;
+        color:black;
+        padding:50px;
+        background-color:black; 
+        border:10px black;  
+        color:black; 
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif; 
+        text-align: center; }
+
+
+.inicio{background-color: white;
+       width: 300PX;
+       height: 200px;
+        padding:80px;
+        margin-bottom: 0px;
+        color:black; 
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif; 
+    border:solid red 8px }
+.galeriaFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tituloNeumatico{
+    color:rgb(255, 255, 255);
+    margin: 15px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align:left}
+.nombreNeumatico{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align:left}   
+
+  
+.imagenNeumatico{width:140px;
+                 height:160px;
+                 margin: 4px}
+.medidaUno{background-color: white;
+    text-align: center;
+    margin: 25px;
+    height: 100px;
+    border:solid red 8px;
+    color:black; 
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif; }
+
+
+.promocionesUno{color:white;
+    margin: 15px;
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align:left;
+    font-weight: bold;}
+    
+.promImagen {width: 300px;
+             height: 300px;
+             margin:40px;}  
+
+
+.serviciosUno{color:white;
+              margin: 15px;
+              font-style: normal;
+              font-family:Arial, Helvetica, sans-serif; 
+              text-align:left;
+              font-weight: bold;}
+.promocion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+
+.servicios{
+    display: grid;
+    justify-items: center;
+    
+}   
+.serviciosGrid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 30vh 30vh;
+    background-color: grey;
+    width: 70%;
+    justify-content: center;
+    margin: 10px;
+}
+.colorServicio{ background-color: white;
+margin: 5px;}
+
+.serviciosDos{color:black;
+              font-style: normal;
+              font-family:Arial, Helvetica, sans-serif; 
+              text-align:left;}
+
+.serviciosTres{color:black;
+              font-style: normal;
+              font-family:Arial, Helvetica, sans-serif; 
+              text-align:left;}
+            
+.imagenServicio{
+    width:310px ;
+    height:209px ;
+}
+
+
+.cajaUno{color: white;
+         font-style: normal;
+         font-family:Arial, Helvetica, sans-serif; 
+         text-align:left;
+         margin-top:15px}  
+
+.cajaTres{color: white; 
+          font-style: normal;
+          font-family:Arial, Helvetica, sans-serif; 
+          text-align:left;
+          margin-top: 15px;}
+
+.cajaDos {background-color: white rgb(255, 255, 255);
+         color:black;
+         margin: 20px;
+         font-style: normal;
+         font-family:Arial, Helvetica, sans-serif; 
+         text-align:left;}
+
+.contacto{color:  black;
+          font-style: normal;
+          font-family:Arial, Helvetica, sans-serif; 
+        text-align:left;}
+
+.contatoGrid{display: grid;
+    justify-items: center;}
+
+.datosdelcliente{background-color: white;
+    width:40%;}
+    
+    
+    
+.sucursales{ 
+    display:grid;
+    justify-items: center;}
+
+.sucursalGrid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 30vh 30vh;
+    background-color: grey;
+    width: 70%;
+    justify-content: center;
+    margin: 10px;
+}
+.colorSucursal{background-color: white;
+margin: 5px;}
+.sucursalesUno{ color:white;margin:15px;
+        font-style: normal;
+        font-family:Arial, Helvetica, sans-serif; 
+        text-align:left;
+        font-weight: bold;}   
+
+
+.tituloSucursal{ color:rgb(3, 3, 3);
+                 font-weight: bold; 
+                 font-style: normal;
+                 font-family:Arial, Helvetica, sans-serif; 
+                 text-align:left;
+} 
+.textoSucursal{color:rgb(2, 2, 2);
+               font-style: normal;
+               font-family:Arial, Helvetica, sans-serif; 
+               text-align:left} 
+
+.imagenSucursal{width: 310px; height: 208px;}
+
+
+footer {background-color: rgb(112, 112, 112);
+    color:black; 
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+    text-align: center;}
+
+}
+
+
+
+
